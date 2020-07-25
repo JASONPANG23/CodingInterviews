@@ -62,7 +62,7 @@ public class Solution001 {
 
     private String printResult(List<Integer> result){
         StringBuilder stringBuilder = new StringBuilder();
-        for (int i = 0; i < result.size() - 2; i++) {
+        for (int i = 0; i < result.size() - 1; i++) {
             stringBuilder.append(result.get(i)).append("=>");
         }
         stringBuilder.append(result.get(result.size() - 1)) ;
@@ -72,10 +72,7 @@ public class Solution001 {
     public static void main(String[] args) {
 
         int[][] array = new int[][]{
-            {1,2,3,4},
-            {12,13,14,5},
-            {11,16,15,6},
-            {10,9,8,7}
+            {1,2,3,4}
         };
 
         Solution001 solution001 = new Solution001();
