@@ -6,10 +6,11 @@ package top.jasonpang.solution.structure;
  * @author Jason
  * Created in 2020-07-25 12:58.
  */
-public class ListNode {
-    int val ;
-    ListNode next ;
-    ListNode(int x){
+public class ListNode<T> {
+    public T val ;
+    public ListNode next;
+    public ListNode(){}
+    public ListNode(T x){
         val = x;
     }
 }

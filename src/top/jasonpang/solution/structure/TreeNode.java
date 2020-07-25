@@ -6,11 +6,11 @@ package top.jasonpang.solution.structure;
  * @author Jason
  * Created in 2020-07-25 13:00.
  */
-public class TreeNode {
-    int val ;
+public class TreeNode<T> {
+    T val ;
     TreeNode left ;
     TreeNode right;
-    TreeNode(int x){
+    TreeNode(T x){
         val = x ;
     }
 }

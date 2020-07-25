@@ -1,5 +1,9 @@
 package top.jasonpang.solution.other.判断一个链表是否是回文结构;
 
+import top.jasonpang.solution.structure.ListNode;
+
+import java.util.Stack;
+
 /**
  * description:
  * 使用栈结构解决问题
@@ -7,4 +11,24 @@ package top.jasonpang.solution.other.判断一个链表是否是回文结构;
  * Created in 2020-07-25 11:10.
  */
 public class Solution001 {
+    public boolean palindrome(ListNode<Integer> head){
+        Stack<Integer> stack = new Stack<>();
+        ListNode<Integer> cur = head ;
+        while(cur != null){
+            stack.push(cur.val);
+            cur = cur.next;
+        }
+        cur = head ;
+        while(cur != null){
+            if(!stack.pop().equals(cur.val)){
+                return false ;
+            }
+            cur = cur.next;
+        }
+        return true ;
+    }
+
+    public static void main(String[] args) {
+
+    }
 }
