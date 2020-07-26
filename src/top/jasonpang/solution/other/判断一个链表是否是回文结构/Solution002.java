@@ -29,7 +29,7 @@ public class Solution002 {
 
         ListNode n1 = head ;
         while(n2.next != null){
-            if(!n1.val.equals(n2.val)){
+            if(n1.val != n2.val ){
                 return false ;
             }
             n2 = n2.next;
@@ -40,8 +40,8 @@ public class Solution002 {
 
 
     public static void main(String[] args) {
-        Integer[] arr = {1, 2, 2, 1};
-        ListNode<Integer> linkList = new LinkListBuilder<Integer>().buildFromArray(arr);
+        int[] arr = {1, 2, 2, 1};
+        ListNode linkList = new LinkListBuilder<Integer>().buildFromArray(arr);
         boolean result = new top.jasonpang.solution.other.判断一个链表是否是回文结构.Solution002().palindrome(linkList);
         System.out.println(result);
     }
