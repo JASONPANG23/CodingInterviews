@@ -11,9 +11,9 @@ import java.util.Stack;
  * Created in 2020-07-25 11:10.
  */
 public class Solution001 {
-    public boolean palindrome(ListNode<Integer> head){
+    public boolean palindrome(ListNode head){
         Stack<Integer> stack = new Stack<>();
-        ListNode<Integer> cur = head ;
+        ListNode cur = head ;
         while(cur != null){
             stack.push(cur.val);
             cur = cur.next;

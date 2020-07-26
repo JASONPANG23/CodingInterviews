@@ -10,14 +10,14 @@ import top.jasonpang.solution.structure.ListNode;
  */
 public class LinkListBuilder<T> {
 
-    public ListNode<T> buildFromArray(T[] arr){
+    public ListNode buildFromArray(int [] arr){
         if(arr == null || arr.length == 0){
             return null ;
         }
-        ListNode<T> dummyHead = new ListNode<>();
-        ListNode<T> cur = dummyHead ;
-        for (T item : arr){
-            ListNode<T> node = new ListNode<>(item);
+        ListNode dummyHead = new ListNode();
+        ListNode cur = dummyHead ;
+        for (int item : arr){
+            ListNode node = new ListNode(item);
             cur.next = node ;
             cur = node ;
         }

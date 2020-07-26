@@ -31,7 +31,7 @@ public class Solution001 {
 
     public static void main(String[] args) {
         Integer[] arr = {1, 2, 3, 4, 5, 6, 7};
-        ListNode<Integer> linkList = new LinkListBuilder<Integer>().buildFromArray(arr);
+        ListNode linkList = new LinkListBuilder<Integer>().buildFromArray(arr);
         linkList = new Solution001().reversal(linkList);
         String result = new LinkListBuilder<Integer>().print(linkList);
         System.out.println(result);
