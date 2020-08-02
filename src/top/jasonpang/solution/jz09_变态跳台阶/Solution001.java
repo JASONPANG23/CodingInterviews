@@ -9,14 +9,13 @@ package top.jasonpang.solution.jz09_变态跳台阶;
  */
 public class Solution001 {
     public int JumpFloorII(int target) {
-        if (target <= 2) {
-            return target;
+        if(target == 0){
+            return 0;
         }
         int[] help = new int[target + 1];
         help[0] = 0;
         help[1] = 1;
-        help[2] = 2;
-        for (int i = 0; i <= target; i++) {
+        for (int i = 2; i <= target; i++) {
             for (int j = 0 ; j < i ; j++){
                 help[i] += help[j];
             }
