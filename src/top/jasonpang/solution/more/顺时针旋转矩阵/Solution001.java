@@ -1,4 +1,4 @@
-package top.jasonpang.solution.other.顺时针旋转矩阵;
+package top.jasonpang.solution.more.顺时针旋转矩阵;
 
 /**
  * description:

@@ -1,4 +1,4 @@
-package top.jasonpang.solution.other.求完全二叉树节点个数;
+package top.jasonpang.solution.more.求完全二叉树节点个数;
 
 import top.jasonpang.solution.structure.TreeNode;
 

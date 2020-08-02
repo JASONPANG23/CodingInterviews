@@ -1,4 +1,4 @@
-package top.jasonpang.solution.other.之字形打印矩阵;
+package top.jasonpang.solution.more.之字形打印矩阵;
 
 /**
  * description:

@@ -1,4 +1,4 @@
-package top.jasonpang.solution.other.判断一个链表是否是回文结构;
+package top.jasonpang.solution.more.判断一个链表是否是回文结构;
 
 import top.jasonpang.solution.structure.ListNode;
 

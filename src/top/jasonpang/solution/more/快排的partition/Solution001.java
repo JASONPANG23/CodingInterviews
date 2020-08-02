@@ -1,4 +1,4 @@
-package top.jasonpang.solution.other.快排的partition;
+package top.jasonpang.solution.more.快排的partition;
 
 /**
  * description:

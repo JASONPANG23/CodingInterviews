@@ -1,4 +1,4 @@
-package top.jasonpang.solution.other.查看一个链表是否有环;
+package top.jasonpang.solution.more.查看一个链表是否有环;
 
 /**
  * description:

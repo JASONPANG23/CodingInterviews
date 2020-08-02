@@ -1,4 +1,4 @@
-package top.jasonpang.solution.other.反转一个链表;
+package top.jasonpang.solution.more.反转一个链表;
 
 import top.jasonpang.solution.structure.ListNode;
 import top.jasonpang.solution.utils.LinkListBuilder;

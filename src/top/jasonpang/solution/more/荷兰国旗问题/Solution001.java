@@ -1,4 +1,4 @@
-package top.jasonpang.solution.other.荷兰国旗问题;
+package top.jasonpang.solution.more.荷兰国旗问题;
 
 /**
  * description:

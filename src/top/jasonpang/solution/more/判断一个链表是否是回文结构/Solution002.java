@@ -1,6 +1,6 @@
-package top.jasonpang.solution.other.判断一个链表是否是回文结构;
+package top.jasonpang.solution.more.判断一个链表是否是回文结构;
 
-import top.jasonpang.solution.other.反转一个链表.Solution001;
+import top.jasonpang.solution.more.反转一个链表.Solution001;
 import top.jasonpang.solution.structure.ListNode;
 import top.jasonpang.solution.utils.LinkListBuilder;
 
@@ -42,7 +42,7 @@ public class Solution002 {
     public static void main(String[] args) {
         int[] arr = {1, 2, 2, 1};
         ListNode linkList = new LinkListBuilder<Integer>().buildFromArray(arr);
-        boolean result = new top.jasonpang.solution.other.判断一个链表是否是回文结构.Solution002().palindrome(linkList);
+        boolean result = new top.jasonpang.solution.more.判断一个链表是否是回文结构.Solution002().palindrome(linkList);
         System.out.println(result);
     }
 

@@ -1,4 +1,4 @@
-package top.jasonpang.solution.other.二叉树前中后序遍历;
+package top.jasonpang.solution.more.二叉树前中后序遍历;
 
 import top.jasonpang.solution.structure.TreeNode;
 

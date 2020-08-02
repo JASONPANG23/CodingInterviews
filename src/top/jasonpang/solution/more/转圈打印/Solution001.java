@@ -1,4 +1,4 @@
-package top.jasonpang.solution.other.转圈打印;
+package top.jasonpang.solution.more.转圈打印;
 
 import java.util.ArrayList;
 import java.util.List;
