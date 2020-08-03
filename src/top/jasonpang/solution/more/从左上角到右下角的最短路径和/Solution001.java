@@ -7,7 +7,7 @@ package top.jasonpang.solution.more.从左上角到右下角的最短路径和;
  * @author Jason
  * Created in 2020-08-02 20:50.
  */
-public class Solution {
+public class Solution001 {
 
     public static int walk(int[][] matrix, int i, int j) {
         if (i == matrix.length - 1 && j == matrix[0].length - 1) {
