@@ -8,4 +8,5 @@ package top.jasonpang.solution.more.一个数组累加得到一个整数;
  * Created in 2020-08-02 21:25.
  */
 public class Solution {
+
 }
