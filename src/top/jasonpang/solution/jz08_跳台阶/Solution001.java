@@ -12,12 +12,12 @@ public class Solution001 {
         if(target <= 2){
             return target;
         }
-        int[] help = new int[target + 1];
-        help[1] = 1 ;
-        help[2] = 2 ;
+        int[] dp = new int[target + 1];
+        dp[1] = 1 ;
+        dp[2] = 2 ;
         for (int i = 3 ; i <= target ; i++){
-            help[i] = help[i - 1] + help[i - 2];
+            dp[i] = dp[i - 1] + dp[i - 2];
         }
-        return help[target];
+        return dp[target];
     }
 }

@@ -24,19 +24,12 @@ public class Solution001 {
         if(n == 0 || n == 1){
             return n;
         }
-        int [] help = new int[n + 1];
-        help[0] = 0;
-        help[1] = 1;
+        int [] dp = new int[n + 1];
+        dp[0] = 0;
+        dp[1] = 1;
         for(int i = 2 ; i <= n ; i++){
-            help[i] = help[i - 1] + help[i - 2] ;
+            dp[i] = dp[i - 1] + dp[i - 2] ;
         }
-        return help[n] ;
+        return dp[n] ;
     }
-
-    public static void main(String[] args) throws IOException {
-
-    }
-
-
-
 }
