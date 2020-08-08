@@ -13,7 +13,6 @@ public class Solution001 {
     public int TreeDepth(TreeNode root) {
         return TreeDepth(root,0);
     }
-
     private int TreeDepth(TreeNode root,int depth){
         if(root == null){
             return depth;
