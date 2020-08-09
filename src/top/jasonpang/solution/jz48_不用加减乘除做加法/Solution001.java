@@ -2,9 +2,9 @@ package top.jasonpang.solution.jz48_不用加减乘除做加法;
 
 /**
  * description:
- * 写一个函数，求两个整数之和，要求在函数体内不得使用+、-、*、/四则运算符号。
+ *
  * @author Jason
- * Created in  2020/7/20 23:36
+ * Created in 2020-07-20 19:27.
  */
 public class Solution001 {
     public int Add(int num1,int num2) {
