@@ -15,19 +15,19 @@ public class Solution001 {
         // 一个整型数组里除了两个数字之外，其他的数字都出现了两次
         // 前置知识点： n ^ 0 = n 、 n ^ n = 0
         // 所以res最后的结果是两个不同的数字进行异或
-        for (int value : array){
-            res ^= value;
+        for (int k : array){
+            res ^= k;
         }
         //找出第一个不相等的位
         res &= (-res);
-        for (int value : array){
+        for (int k : array){
             //使用该位进行分组,该位为1的分到num1,不为1的分到num2
             //分组后，相同的数一定在一组，由于该位是以两个不同的数来确定的
             //所以不同的数一定不在一组，再根据相同的数异或为0，所以最后可以得到答案
-            if( (value & res) == 1){
-                num1[0] ^= value;
+            if( (k & res) != 0){
+                num2[0] ^= k;
             }else{
-                num2[0] ^= value;
+                num1[0] ^= k;
             }
         }
     }
